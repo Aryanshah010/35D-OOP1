@@ -1,0 +1,22 @@
+public class switchCase {
+    public static void main(String[] args) {
+        char value = 'b';
+        int intVal = 10;
+
+        switch (value) {
+            case 01:
+                System.out.println("Apple");
+                break;
+            case 'b':
+                System.out.println("Ball");
+                break;
+            case 'c':
+                System.out.println("Cat");
+                break;
+            default:
+                System.out.println("No word found");
+                break;
+        }
+    }
+
+}

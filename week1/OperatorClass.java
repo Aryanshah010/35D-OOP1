@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class OperatorClass {
     public static void main(String[] args) {
         /* Arithemitic Operators */
@@ -109,6 +111,14 @@ public class OperatorClass {
         boolean tvar = tva >= 18;
         String toutput = tvar ? "The variable is greater than or equal to 18." : "The variable is less than 18";
         System.out.println(toutput);
+
+        Scanner tern = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int t = tern.nextInt();
+
+        String ooe = t % 2 == 0 ? "even" : "odd";
+        System.out.println(ooe);
+        tern.close();
 
     }
 
