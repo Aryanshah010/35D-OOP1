@@ -1,10 +1,9 @@
 public class switchCase {
     public static void main(String[] args) {
         char value = 'b';
-        int intVal = 10;
 
         switch (value) {
-            case 01:
+            case 'a':
                 System.out.println("Apple");
                 break;
             case 'b':
