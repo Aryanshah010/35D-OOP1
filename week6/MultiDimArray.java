@@ -71,13 +71,13 @@ public class MultiDimArray {
         System.out.println(twoDArray[1][4]);
 
         /* Multi Dim array memory allocation and assignment */
-        int[][] arrayTwo = {
-                { 10, 20, 30 },
-                { 20, 30, 40 },
-                { 100, 200, 300 },
-                { 3, 4, 5 }
+        // int[][] arrayTwo = {
+        // { 10, 20, 30 },
+        // { 20, 30, 40 },
+        // { 100, 200, 300 },
+        // { 3, 4, 5 }
 
-        };
+        // };
         // [4][3]
 
     }
